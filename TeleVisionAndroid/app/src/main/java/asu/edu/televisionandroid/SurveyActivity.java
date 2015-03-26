@@ -21,7 +21,7 @@ public class SurveyActivity extends Activity {
             @Override
             public void onClick(View v) {
                 // TODO Auto-generated method stub
-                Intent myIntent = new Intent(SurveyActivity.this, ImagePickerActivity.class);
+                Intent myIntent = new Intent(SurveyActivity.this, VideoCaptureActivity.class);
                 SurveyActivity.this.startActivity(myIntent);
             }
         });
