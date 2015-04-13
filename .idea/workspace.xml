@@ -2,14 +2,122 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57a983c1-1a64-44f5-9f32-2f59747fe3de" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/CapstoneAndroidVideo.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/api.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/classes/endpointsSrc/com/mayoandroid/backend/myApi/MyApi$Builder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/classes/endpointsSrc/com/mayoandroid/backend/myApi/MyApi$SayHi.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/classes/endpointsSrc/com/mayoandroid/backend/myApi/MyApi.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/classes/endpointsSrc/com/mayoandroid/backend/myApi/MyApiRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/classes/endpointsSrc/com/mayoandroid/backend/myApi/MyApiRequestInitializer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/classes/endpointsSrc/com/mayoandroid/backend/myApi/MyApiScopes.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/classes/endpointsSrc/com/mayoandroid/backend/myApi/model/MyBean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/classes/endpointsSrc/com/mayoandroid/backend/userApi/UserApi$Builder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/classes/endpointsSrc/com/mayoandroid/backend/userApi/UserApi$GetIfUserExist.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/classes/endpointsSrc/com/mayoandroid/backend/userApi/UserApi$User$Initdb.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/classes/endpointsSrc/com/mayoandroid/backend/userApi/UserApi$User.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/classes/endpointsSrc/com/mayoandroid/backend/userApi/UserApi.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/classes/endpointsSrc/com/mayoandroid/backend/userApi/UserApiRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/classes/endpointsSrc/com/mayoandroid/backend/userApi/UserApiRequestInitializer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/classes/endpointsSrc/com/mayoandroid/backend/userApi/UserApiScopes.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/classes/endpointsSrc/com/mayoandroid/backend/userApi/model/User.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/classes/main/com/mayoandroid/backend/MyBean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/classes/main/com/mayoandroid/backend/MyEndpoint.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/classes/main/com/mayoandroid/backend/User.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/classes/main/com/mayoandroid/backend/UserEndpoint.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/client-libs/myApi-v1-java.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/client-libs/userApi-v1-java.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/discovery-docs/myApi-v1-rest.discovery" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/discovery-docs/myApi-v1-rpc.discovery" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/discovery-docs/userApi-v1-rest.discovery" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/discovery-docs/userApi-v1-rpc.discovery" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/exploded-app/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/exploded-app/WEB-INF/appengine-web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/exploded-app/WEB-INF/classes/com/mayoandroid/backend/MyBean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/exploded-app/WEB-INF/classes/com/mayoandroid/backend/MyEndpoint.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/exploded-app/WEB-INF/classes/com/mayoandroid/backend/User.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/exploded-app/WEB-INF/classes/com/mayoandroid/backend/UserEndpoint.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/exploded-app/WEB-INF/lib/appengine-api-1.0-sdk-1.9.14.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/exploded-app/WEB-INF/lib/appengine-endpoints-1.9.14.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/exploded-app/WEB-INF/lib/appengine-endpoints-deps-1.9.14.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/exploded-app/WEB-INF/lib/servlet-api-2.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/exploded-app/WEB-INF/logging.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/exploded-app/WEB-INF/myApi-v1-rest.discovery" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/exploded-app/WEB-INF/myApi-v1-rpc.discovery" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/exploded-app/WEB-INF/userApi-v1-rest.discovery" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/exploded-app/WEB-INF/userApi-v1-rpc.discovery" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/exploded-app/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/exploded-app/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/generated-source/endpoints/java/com/mayoandroid/backend/myApi/MyApi.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/generated-source/endpoints/java/com/mayoandroid/backend/myApi/MyApiRequest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/generated-source/endpoints/java/com/mayoandroid/backend/myApi/MyApiRequestInitializer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/generated-source/endpoints/java/com/mayoandroid/backend/myApi/MyApiScopes.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/generated-source/endpoints/java/com/mayoandroid/backend/myApi/model/MyBean.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/generated-source/endpoints/java/com/mayoandroid/backend/userApi/UserApi.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/generated-source/endpoints/java/com/mayoandroid/backend/userApi/UserApiRequest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/generated-source/endpoints/java/com/mayoandroid/backend/userApi/UserApiRequestInitializer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/generated-source/endpoints/java/com/mayoandroid/backend/userApi/UserApiScopes.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/generated-source/endpoints/java/com/mayoandroid/backend/userApi/model/User.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/libs/api-android-endpoints.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/libs/api.war" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/tmp/_appengineEndpointsAndroidArtifact/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/tmp/appengineEndpointsExpandClientLibs/myApi-v1-java.zip-unzipped/myApi/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/tmp/appengineEndpointsExpandClientLibs/myApi-v1-java.zip-unzipped/myApi/build.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/tmp/appengineEndpointsExpandClientLibs/myApi-v1-java.zip-unzipped/myApi/proguard-google-api-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/tmp/appengineEndpointsExpandClientLibs/myApi-v1-java.zip-unzipped/myApi/readme.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/tmp/appengineEndpointsExpandClientLibs/myApi-v1-java.zip-unzipped/myApi/src/main/java/com/mayoandroid/backend/myApi/MyApi.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/tmp/appengineEndpointsExpandClientLibs/myApi-v1-java.zip-unzipped/myApi/src/main/java/com/mayoandroid/backend/myApi/MyApiRequest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/tmp/appengineEndpointsExpandClientLibs/myApi-v1-java.zip-unzipped/myApi/src/main/java/com/mayoandroid/backend/myApi/MyApiRequestInitializer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/tmp/appengineEndpointsExpandClientLibs/myApi-v1-java.zip-unzipped/myApi/src/main/java/com/mayoandroid/backend/myApi/MyApiScopes.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/tmp/appengineEndpointsExpandClientLibs/myApi-v1-java.zip-unzipped/myApi/src/main/java/com/mayoandroid/backend/myApi/model/MyBean.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/tmp/appengineEndpointsExpandClientLibs/userApi-v1-java.zip-unzipped/userApi/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/tmp/appengineEndpointsExpandClientLibs/userApi-v1-java.zip-unzipped/userApi/build.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/tmp/appengineEndpointsExpandClientLibs/userApi-v1-java.zip-unzipped/userApi/proguard-google-api-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/tmp/appengineEndpointsExpandClientLibs/userApi-v1-java.zip-unzipped/userApi/readme.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/tmp/appengineEndpointsExpandClientLibs/userApi-v1-java.zip-unzipped/userApi/src/main/java/com/mayoandroid/backend/userApi/UserApi.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/tmp/appengineEndpointsExpandClientLibs/userApi-v1-java.zip-unzipped/userApi/src/main/java/com/mayoandroid/backend/userApi/UserApiRequest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/tmp/appengineEndpointsExpandClientLibs/userApi-v1-java.zip-unzipped/userApi/src/main/java/com/mayoandroid/backend/userApi/UserApiRequestInitializer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/tmp/appengineEndpointsExpandClientLibs/userApi-v1-java.zip-unzipped/userApi/src/main/java/com/mayoandroid/backend/userApi/UserApiScopes.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/tmp/appengineEndpointsExpandClientLibs/userApi-v1-java.zip-unzipped/userApi/src/main/java/com/mayoandroid/backend/userApi/model/User.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/build/tmp/war/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/src/main/java/com/mayoandroid/backend/MyBean.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/src/main/java/com/mayoandroid/backend/MyEndpoint.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/src/main/java/com/mayoandroid/backend/User.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/src/main/java/com/mayoandroid/backend/UserEndpoint.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/src/main/webapp/WEB-INF/appengine-web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/src/main/webapp/WEB-INF/logging.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/src/main/webapp/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/api/src/main/webapp/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/app/src/main/java/asu/edu/televisionandroid/LoginAsync.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/app/src/main/java/asu/edu/televisionandroid/SurveyActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/app/src/main/java/asu/edu/televisionandroid/VideoCaptureActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/app/src/main/java/asu/edu/televisionandroid/util/SystemUiHider.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/app/src/main/java/asu/edu/televisionandroid/util/SystemUiHiderBase.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/app/src/main/java/asu/edu/televisionandroid/util/SystemUiHiderHoneycomb.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/app/src/main/res/layout/activity_video_capture.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/app/src/main/res/values-v11/styles.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/app/src/main/res/values/attrs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeleVisionAndroid/app/src/main/res/values/colors.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeleVisionAndroid/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/TeleVisionAndroid/app/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeleVisionAndroid/app/src/main/java/asu/edu/televisionandroid/ImagePickerActivity.java" afterPath="$PROJECT_DIR$/TeleVisionAndroid/app/src/main/java/asu/edu/televisionandroid/ImagePickerActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeleVisionAndroid/app/src/main/java/asu/edu/televisionandroid/LoginActivity.java" afterPath="$PROJECT_DIR$/TeleVisionAndroid/app/src/main/java/asu/edu/televisionandroid/LoginActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeleVisionAndroid/app/src/main/java/asu/edu/televisionandroid/SubmitActivity.java" afterPath="$PROJECT_DIR$/TeleVisionAndroid/app/src/main/java/asu/edu/televisionandroid/SubmitActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeleVisionAndroid/TeleVisionAndroid.iml" afterPath="$PROJECT_DIR$/TeleVisionAndroid/TeleVisionAndroid.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeleVisionAndroid/app/src/main/res/layout/activity_image_picker.xml" afterPath="$PROJECT_DIR$/TeleVisionAndroid/app/src/main/res/layout/activity_image_picker.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeleVisionAndroid/app/src/main/res/layout/activity_login.xml" afterPath="$PROJECT_DIR$/TeleVisionAndroid/app/src/main/res/layout/activity_login.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeleVisionAndroid/app/src/main/res/layout/activity_patient_id.xml" afterPath="$PROJECT_DIR$/TeleVisionAndroid/app/src/main/res/layout/activity_patient_id.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeleVisionAndroid/app/src/main/res/layout/activity_submit.xml" afterPath="$PROJECT_DIR$/TeleVisionAndroid/app/src/main/res/layout/activity_submit.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeleVisionAndroid/app/src/main/res/layout/activity_survey.xml" afterPath="$PROJECT_DIR$/TeleVisionAndroid/app/src/main/res/layout/activity_survey.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeleVisionAndroid/app/app.iml" afterPath="$PROJECT_DIR$/TeleVisionAndroid/app/app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeleVisionAndroid/app/build.gradle" afterPath="$PROJECT_DIR$/TeleVisionAndroid/app/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeleVisionAndroid/.idea/gradle.xml" afterPath="$PROJECT_DIR$/TeleVisionAndroid/.idea/gradle.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeleVisionAndroid/app/src/main/res/menu/menu_survey.xml" afterPath="$PROJECT_DIR$/TeleVisionAndroid/app/src/main/res/menu/menu_survey.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeleVisionAndroid/.idea/modules.xml" afterPath="$PROJECT_DIR$/TeleVisionAndroid/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeleVisionAndroid/app/src/main/java/asu/edu/televisionandroid/patientIDActivity.java" afterPath="$PROJECT_DIR$/TeleVisionAndroid/app/src/main/java/asu/edu/televisionandroid/patientIDActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeleVisionAndroid/settings.gradle" afterPath="$PROJECT_DIR$/TeleVisionAndroid/settings.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeleVisionAndroid/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/TeleVisionAndroid/app/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeleVisionAndroid/app/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/TeleVisionAndroid/app/src/main/res/values/styles.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CapstoneAndroidVideo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,7 +143,7 @@
       <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TeleVisionAndroid/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+            <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="375">
               <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
               <folding />
             </state>
@@ -45,7 +153,7 @@
       <file leaf-file-name="gradlew" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TeleVisionAndroid/gradlew">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2155" max-vertical-offset="2550">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2550">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -55,7 +163,7 @@
       <file leaf-file-name="gradlew.bat" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TeleVisionAndroid/gradlew.bat">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="43.32" vertical-offset="1083" max-vertical-offset="1440">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1440">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -65,7 +173,17 @@
       <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TeleVisionAndroid/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShowCamera.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TeleVisionAndroid/app/src/main/java/asu/edu/televisionandroid/ShowCamera.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -75,18 +193,8 @@
       <file leaf-file-name="app.iml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TeleVisionAndroid/app/app.iml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1253" max-vertical-offset="1635">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1485">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginAsync.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TeleVisionAndroid/app/src/main/java/asu/edu/televisionandroid/LoginAsync.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2356021" vertical-offset="0" max-vertical-offset="990">
-              <caret line="16" column="66" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -95,7 +203,7 @@
       <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TeleVisionAndroid/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="180">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -122,10 +230,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/TeleVisionAndroid/app/build.gradle" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="10" />
     <option name="y" value="23" />
-    <option name="width" value="1260" />
+    <option name="width" value="1280" />
     <option name="height" value="746" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -154,6 +268,9 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="AndroidView">
+        <subPane />
+      </pane>
       <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane />
@@ -177,28 +294,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="TeleVisionAndroid" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CapstoneAndroidVideo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CapstoneAndroidVideo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TeleVisionAndroid" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gradle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wrapper" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -322,9 +417,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="AndroidView">
-        <subPane />
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -336,6 +428,7 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/TeleVisionAndroid" />
     <property name="recentsLimit" value="5" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -479,31 +572,31 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="23" width="1260" height="746" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="746" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32857144" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32857144" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32719547" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32857144" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24958949" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24878837" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
@@ -528,6 +621,174 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/TeleVisionAndroid/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeleVisionAndroid/gradlew">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2550">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeleVisionAndroid/gradlew.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1440">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeleVisionAndroid/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeleVisionAndroid/app/app.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1485">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeleVisionAndroid/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeleVisionAndroid/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeleVisionAndroid/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="375">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeleVisionAndroid/gradlew">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2550">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeleVisionAndroid/gradlew.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1440">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeleVisionAndroid/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeleVisionAndroid/app/app.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1635">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeleVisionAndroid/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeleVisionAndroid/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeleVisionAndroid/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="375">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeleVisionAndroid/gradlew">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2155" max-vertical-offset="2550">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeleVisionAndroid/gradlew.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1440">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeleVisionAndroid/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeleVisionAndroid/app/app.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1635">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeleVisionAndroid/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeleVisionAndroid/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TeleVisionAndroid/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="395">
@@ -562,7 +823,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TeleVisionAndroid/gradlew.bat">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="43.32" vertical-offset="1083" max-vertical-offset="1440">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1440">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -584,10 +845,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TeleVisionAndroid/app/src/main/java/asu/edu/televisionandroid/LoginAsync.java">
+    <entry file="file://$PROJECT_DIR$/TeleVisionAndroid/app/src/main/java/asu/edu/televisionandroid/ShowCamera.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2356021" vertical-offset="0" max-vertical-offset="990">
-          <caret line="16" column="66" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

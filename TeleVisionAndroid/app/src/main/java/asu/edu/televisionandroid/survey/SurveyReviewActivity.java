@@ -1,38 +1,46 @@
-package asu.edu.televisionandroid;
+package asu.edu.televisionandroid.survey;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.app.Activity;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
-import android.util.Log;
+import android.widget.ListView;
 
-import asu.edu.televisionandroid.survey.SurveyActivity;
+import java.util.ArrayList;
 
+import asu.edu.televisionandroid.ImagePickerActivity;
+import asu.edu.televisionandroid.R;
 
-public class patientIDActivity extends Activity {
+/**
+ * Created by Akshay Ashwathanarayana on 4/11/15.
+ */
+public class SurveyReviewActivity extends Activity {
+    private SurveyReviewAdapter adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_patient_id);
-        Button clickButton = (Button) findViewById(R.id.buttonPatient);
+        System.out.println("in review"  );
+        setContentView(R.layout.activity_survey_review);
+        ArrayList<Question> questions = getIntent().getParcelableArrayListExtra("ques");
+
+
+        adapter = new SurveyReviewAdapter(this, R.layout.survey_question, questions.toArray(new Question[questions.size()]) );
+        ListView listView = (ListView) findViewById(R.id.questionsList);
+        listView.setAdapter(adapter);
+        listView.deferNotifyDataSetChanged();
+
+        Button clickButton = (Button) findViewById(R.id.buttonSurvey);
         clickButton.setOnClickListener( new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
-
-                // capture value of patientIDInput
-                EditText patientIDInput = (EditText) findViewById(R.id.patientIDInput);
-                String patientIDInputValue = patientIDInput.getText().toString();
-                Log.v("Patient ID", patientIDInputValue);
-
-                // TODO Auto-generated method stub
-                Intent myIntent = new Intent(patientIDActivity.this, SurveyActivity.class);
-                patientIDActivity.this.startActivity(myIntent);
+                Intent myIntent = new Intent(SurveyReviewActivity.this, ImagePickerActivity.class);
+                SurveyReviewActivity.this.startActivity(myIntent);
             }
         });
     }
@@ -41,7 +49,7 @@ public class patientIDActivity extends Activity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_patient_id, menu);
+        getMenuInflater().inflate(R.menu.menu_survey, menu);
         return true;
     }
 

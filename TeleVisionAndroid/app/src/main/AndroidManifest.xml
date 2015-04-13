@@ -3,11 +3,11 @@
     package="asu.edu.televisionandroid" >
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.CAMERA"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
-    <uses-permission android:name="android.permission.RECORD_AUDIO"></uses-permission>
     <uses-feature android:name="android.hardware.camera"
         android:required="true" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+
 
     <application
         android:allowBackup="true"
@@ -28,8 +28,12 @@
             android:label="@string/title_activity_patient_id" >
         </activity>
         <activity
-            android:name=".SurveyActivity"
+            android:name=".survey.SurveyActivity"
             android:label="@string/title_activity_survey" >
+        </activity>
+        <activity
+            android:name=".survey.SurveyReviewActivity"
+            android:label="@string/title_activity_survey_review" >
         </activity>
         <activity
             android:name=".ImagePickerActivity"
@@ -38,10 +42,6 @@
         <activity
             android:name=".SubmitActivity"
             android:label="@string/title_activity_submit" >
-        </activity>
-        <activity
-            android:name=".VideoCaptureActivity"
-            android:label="@string/title_activity_video_capture">
         </activity>
     </application>
 
